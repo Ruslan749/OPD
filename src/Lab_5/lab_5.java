@@ -150,6 +150,7 @@ class Methods{
         errorSumDiviation = Math.round((float) sumMeanDiviation / sumLabor * 100);
         return errorSumDiviation;
     }
+
     // Расчёт общей трудоёмкости
     int _sumDiviation(){
         _sumDiviation = 4 * sumDiviation;
